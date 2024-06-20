@@ -1,0 +1,222 @@
+.background {
+    background-image: url('../../style/assets/home-background.webp');
+    background-size: cover; /* Couvre toute la zone disponible */
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image de fond */
+    width: 100%; /* S'étend sur toute la largeur */
+    min-height: 100vh; /* S'étend sur toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
+}
+  
+  .home {
+    padding: 80px 20px;
+    font-family: Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.65); 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px;
+        &-text {
+            width: 80%;
+            margin-left: 40px;
+            font-size: 22px;
+            & h1 {
+                font-size: 38px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+        &-img {
+            width: 350px;
+        }
+        &-button {
+            display: inline-block; /* Permet au lien de se comporter comme un élément inline-block */
+            margin-top: 20px;
+            border-radius: 30px;
+            width: 200px;
+            height: 40px;
+            font-weight: 700;
+            font-size: 20px;
+            border: none;
+            background-color: white; 
+            text-align: center; 
+            line-height: 40px; 
+            text-decoration: none;
+            cursor: pointer;
+            padding: 5px;
+            &:visited {
+                color: black;
+            }
+            &:hover {
+                background-color: #5ba5f4;
+            }           
+        }
+        &-icon {
+            margin-left: 15px;
+        }
+    }
+    &_buy {
+        background-color: #003366;
+        display: flex;
+        padding: 40px 80px;
+        &-container {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        &-title {
+            color: #fff;
+            text-align: end;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+        }
+        &-text {
+            color: #898989;
+            text-align: end;
+            font-size: 24px;
+        }
+        &-img {
+            width: 350px;
+            border: 5px solid white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+            margin-left: 30px;
+           }
+        &-button {
+            display: inline-block; /* Permet au lien de se comporter comme un élément inline-block */
+            margin-top: 20px;
+            border-radius: 30px;
+            width: 300px;
+            height: 40px;
+            font-weight: 700;
+            font-size: 20px;
+            border: none;
+            background-color: white; 
+            text-align: center; 
+            line-height: 40px; 
+            text-decoration: none;
+            cursor: pointer;
+            padding: 5px;
+            &:visited {
+                color: black;
+            }
+            &:hover {
+                background-color: #5ba5f4;
+            }
+        }
+        &-icon {
+            margin-left: 15px;
+        }
+    }
+    &_taste {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 40px 80px;
+        background: rgba(255, 255, 255, 0.55);
+        &-container {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
+        &-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 0px;
+        }
+        &-text {
+            color: #656464;
+            font-size: 24px;
+        }
+        &-img {
+            width: 350px;
+            border: 5px solid white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+            margin-right: 30px;
+           }
+        &-button {
+            display: inline-block; /* Permet au lien de se comporter comme un élément inline-block */
+            margin-top: 20px;
+            border-radius: 30px;
+            width: 200px;
+            height: 40px;
+            font-weight: 700;
+            font-size: 20px;
+            background-color: white; 
+            text-align: center; 
+            line-height: 40px; 
+            text-decoration: none;
+            cursor: pointer;
+            padding: 5px;
+            &:visited {
+                color: rgba(0, 0, 0, 0.516);
+            }
+            &:hover {
+                background-color: #5ba5f4;
+            }
+        }
+        &-icon {
+            margin-left: 15px;
+        }
+    }
+    &_contact {
+        background-color: #003366;
+        display: flex;
+        padding: 40px 80px;
+        &-container {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+        }
+        &-title {
+            color: #fff;
+            text-align: end;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 0px;
+        }
+        &-text {
+            color: #898989;
+            text-align: end;
+            font-size: 24px;
+        }
+        &-img {
+            width: 350px;
+            border: 5px solid white;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+            margin-left: 30px;
+           }
+        &-button {
+            display: inline-block; /* Permet au lien de se comporter comme un élément inline-block */
+            margin-top: 20px;
+            border-radius: 30px;
+            width: 250px;
+            height: 40px;
+            font-weight: 700;
+            font-size: 20px;
+            border: none;
+            background-color: white; 
+            text-align: center; 
+            line-height: 40px; 
+            text-decoration: none;
+            cursor: pointer;
+            padding: 5px;
+            &:visited {
+                color: black;
+            }
+            &:hover {
+                background-color: #5ba5f4;
+            }
+        }
+        &-icon {
+            margin-left: 15px;
+        }
+        &-map {
+            margin-left: 30px;
+        }
+    }
+
+  }

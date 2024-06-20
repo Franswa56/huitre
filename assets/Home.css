@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.background {
+  background-image: url("../../style/assets/home-background.jpg");
+  background-size: cover; /* Couvre toute la zone disponible */
+  background-position: center; /* Centre l'image */
+  width: 100%; /* S'étend sur toute la largeur */
+  height: 100vh; /* S'étend sur toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home {
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home_title-text {
+  width: 80%;
+  margin-left: 40px;
+}
+.home_title-text h1 {
+  font-size: 32px;
+}
+.home_title-img {
+  width: 250px;
+}
+.home_title-button {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}/*# sourceMappingURL=Home.css.map */

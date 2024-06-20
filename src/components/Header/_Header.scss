@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #003366;
+    padding: 20px 0;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+    font-size: 22px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #66ccff;
+    font-weight: bold;
+  }
+  
+  .nav-item a.active {
+    color: #007bff;
+  }
