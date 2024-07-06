@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer.js';
 import Products from './pages/products/Products';
+import Card from './pages/card/Card.js'
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/produits" element={<Products />}/>
+          <Route path="/degustation" element={<Card />}/>
         </Routes>
       </div>
+      <Footer />
     </Router>
   );
 }

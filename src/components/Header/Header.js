@@ -1,11 +1,26 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import './_Header.scss';
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const currentLocation = useLocation();
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+    // Fermer le menu quand la route change
+    useEffect(() => {
+      setMenuOpen(false);
+    }, [currentLocation]);
+
   return (
     <nav className="header">
-      <ul className="nav-list">
+      <div className="menu-toggle" onClick={toggleMenu}>
+        &#9776;
+      </div>
+      <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
         <li className="nav-item">
           <NavLink exact to="/" activeClassName="active">
             Accueil

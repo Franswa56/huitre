@@ -6,6 +6,8 @@ import buypic from "../../style/assets/buy.jpg";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
+
+
   return (
     <div className="background">
       <div className="home">
@@ -36,7 +38,7 @@ Alors, n'attendez plus et venez nous rendre visite pour une expérience inoublia
       </section>
       <section className="home_taste">
         <div className="home_taste-container">
-          <NavLink exact to="/Produits" className="home_taste-button">
+          <NavLink exact to="/Degustation" className="home_taste-button">
             Voir la carte
             <i class="fa-solid fa-arrow-right home_taste-icon"></i>
           </NavLink>
@@ -48,14 +50,14 @@ Alors, n'attendez plus et venez nous rendre visite pour une expérience inoublia
       <section className="home_contact">
         <div className="home_contact-container">
           <NavLink exact to="/Produits" className="home_buy-button">
-            Vente d'huitres a Penerf
+            Contact et Localisation
             <i class="fa-solid fa-arrow-right home_contact-icon"></i>
           </NavLink>
-          <h1 className="home_contact-title">Comment nous trouver</h1>
+          <h1 className="home_contact-title">Comment nous trouver ?</h1>
           <h2 className="home_contact-text">Pour nous rendre visite et déguster nos huîtres fraîches directement à la source, suivez simplement notre carte. Nous sommes situés au cœur de la Bretagne, à proximité de la magnifique rivière de Penerf. Utilisez la carte ci-dessous pour obtenir des directions précises et nous rejoindre facilement. Nous avons hâte de vous accueillir</h2>
         </div>
         <div className="home_contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.766223803465!2d-2.6207176999999997!3d47.5139438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ffc1425379efd%3A0x18e38bc93d564c6b!2sJardins%20d&#39;huitres!5e0!3m2!1sfr!2sfr!4v1718894699664!5m2!1sfr!2sfr" 
+        <iframe title="map" className="home_contact-mapelement" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.766223803465!2d-2.6207176999999997!3d47.5139438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ffc1425379efd%3A0x18e38bc93d564c6b!2sJardins%20d&#39;huitres!5e0!3m2!1sfr!2sfr!4v1718894699664!5m2!1sfr!2sfr" 
         width="350" 
         height="350" 
         allowfullscreen="" 

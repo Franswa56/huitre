@@ -1,0 +1,58 @@
+.banner {
+    background-image: url('../../style/assets/bannerCard.png');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &_container {
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.45);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-title {
+            font-family: 'Playfair Display', serif;
+            color: white;
+            font-size: 56px;
+        }
+        &-text {
+            color: white;
+            font-size: 36px;
+            margin-top: 0px;
+        }
+    }
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    &_pic {
+        height: 300px;
+        width: 300px;
+        border: 5px solid white;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    }
+}
+.card {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;  
+    &_container {
+        display: flex; 
+        justify-content: space-around;      
+        &-img {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+    }
+    &_img {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    } 
+}
