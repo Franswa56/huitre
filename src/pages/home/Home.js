@@ -49,7 +49,7 @@ Alors, n'attendez plus et venez nous rendre visite pour une expérience inoublia
       </section>
       <section className="home_contact">
         <div className="home_contact-container">
-          <NavLink exact to="/Produits" className="home_buy-button">
+          <NavLink exact to="/contact" className="home_buy-button">
             Contact et Localisation
             <i class="fa-solid fa-arrow-right home_contact-icon"></i>
           </NavLink>

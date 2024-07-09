@@ -36,6 +36,7 @@
         width: 300px;
         border: 5px solid white;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        border: 2px solid rgb(188, 125, 83);
     }
 }
 .card {
@@ -57,11 +58,13 @@
             align-items: center;
             animation: fadeInUp 0.8s forwards;
             overflow: hidden;
+           
 
         }
     }
     &_img {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        border: 2px solid rgb(188, 125, 83);
     } 
 }
 
